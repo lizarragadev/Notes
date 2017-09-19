@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@mipmap/ic_menu_home"
+        android:title="@string/menu.home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_trash"
+        android:enabled="true"
+        android:icon="@mipmap/ic_menu_trash"
+        android:title="@string/menu.trash"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_int_arch"
+        android:enabled="true"
+        android:icon="@mipmap/ic_menu_ext_arch"
+        android:title="@string/menu.intern"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_ext_arch"
+        android:enabled="true"
+        android:icon="@mipmap/ic_menu_int_arch"
+        android:title="@string/menu.extern"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_raw_file"
+        android:enabled="true"
+        android:icon="@mipmap/ic_menu_raw_file"
+        android:title="@string/menu.raw"
+        app:showAsAction="ifRoom" />
+</menu>

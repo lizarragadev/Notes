@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.miramicodigo.notesbeta.controller.InternalLogFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+        <TextView
+            android:id="@+id/tvRawFile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"/>
+    </ScrollView>
+    <RelativeLayout
+        android:id="@+id/rlPanelRawFile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+        <ImageView
+            android:id="@+id/ivIcon"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/icon_raw_file"
+            android:scaleType="centerCrop"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No hay contenido en Archivo RAW"
+            android:layout_below="@id/ivIcon"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorDivider"/>
+    </RelativeLayout>
+</FrameLayout>

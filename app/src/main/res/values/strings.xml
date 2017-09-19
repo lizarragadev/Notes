@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NotesBeta</string>
+
+    <string name="menu.home">Notas (Realm)</string>
+    <string name="menu.trash">Papelera (SQLite)</string>
+    <string name="menu.intern">Log Realm (Interno)</string>
+    <string name="menu.extern">Log SQLite(Externo)</string>
+    <string name="menu.raw">Archivo Raw</string>
+
+</resources>

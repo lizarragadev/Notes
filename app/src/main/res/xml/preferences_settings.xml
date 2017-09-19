@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Mensajes">
+        <CheckBoxPreference
+            android:key="cbGreet"
+            android:title="Saludar"
+            android:defaultValue="false"
+            android:summary="Mostrar un Snackbar con un mensaje.">
+        </CheckBoxPreference>
+        <EditTextPreference
+            android:key="etName"
+            android:title="Nombre a mostrar"
+            android:summary="Nombre a mostrar en el Snackbar"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Archivo interno">
+        <CheckBoxPreference
+            android:key="cbInterno"
+            android:title="Guardar LOG Realm"
+            android:defaultValue="true"
+            android:summary="Permitir almacenar el registro de altas, bajas, cambios y recuperacion en un archivo en la memoria interna.">
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Archivo externo">
+        <CheckBoxPreference
+            android:key="cbExterno"
+            android:title="Guardar LOG SQLite"
+            android:defaultValue="true"
+            android:summary="Permitir almacenar el registro de altas, bajas y recuperacion en un archivo en la memoria externa.">
+        </CheckBoxPreference>
+    </PreferenceCategory>
+</PreferenceScreen>
